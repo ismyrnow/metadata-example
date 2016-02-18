@@ -16,3 +16,4 @@ The following map can be used as a guide, though it is not an exhaustive list as
 Additionally, potential plazas can be identified using CSCL (TRAFDIR=NV and BIKE_LANE≠1).
 
 [METADATA](metadata/Metadata_Files/PLAZA_metadata.html)
+[METADATA](metadata/Metadata_Files/PLAZA_metadata.html)
