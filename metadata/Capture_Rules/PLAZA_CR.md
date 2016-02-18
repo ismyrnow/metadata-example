@@ -17,4 +17,4 @@ Additionally, potential plazas can be identified using CSCL (TRAFDIR=NV and BIKE
 
 [METADATA](../Metadata_Files/PLAZA_metadata.html)
 
-[METADATA](https://github.com/jDolansky/Capture-Rules-NYC-Planimetrics-Update-2016/blob/gh-pages/metadata/Metadata_Files/PLAZA_metadata.html)
+[METADATA](http://jdolansky.github.io/Capture-Rules-NYC-Planimetrics-Update-2016/metadata/Metadata_Files/PLAZA_metadata.html)
