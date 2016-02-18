@@ -14,3 +14,5 @@ Plazas cannot overlap medians or sidewalks.
 The following map can be used as a guide, though it is not an exhaustive list as it only includes areas that were giving zoning benefits. http://home2.nyc.gov/html/dcp/pdf/pops/pops_map.pdf
 
 Additionally, potential plazas can be identified using CSCL (TRAFDIR=NV and BIKE_LANE≠1).
+
+[METADATA](Metadata_Files/PLAZA_metadata.html)
