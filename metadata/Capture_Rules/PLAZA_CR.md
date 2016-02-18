@@ -15,10 +15,6 @@ The following map can be used as a guide, though it is not an exhaustive list as
 
 Additionally, potential plazas can be identified using CSCL (TRAFDIR=NV and BIKE_LANE≠1).
 
-[METADATA](metadata/Metadata_Files/PLAZA_metadata.html)
-
-[METADATA](Capture-Rules-NYC-Planimetrics-Update-2016/metadata/Metadata_Files/PLAZA_metadata.html)
-
 [METADATA](../Metadata_Files/PLAZA_metadata.html)
 
 [METADATA](https://github.com/jDolansky/Capture-Rules-NYC-Planimetrics-Update-2016/blob/gh-pages/metadata/Metadata_Files/PLAZA_metadata.html)
