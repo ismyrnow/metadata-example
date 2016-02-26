@@ -48,3 +48,43 @@ Do NOT collect awnings, scaffolds, or sidewalk sheds.
 
 ![Photo](https://pbs.twimg.com/profile_images/595637146054168577/OZ127kGE_400x400.jpg)
 
+<br></br>
+
+#####Feature Code | *type*:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GARAGE&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;*polygon*
+
+######Source Databases: Update from imagery, existing database with BIN, DOF TaxMap
+
+######Features Captured:
+
+Collect all garages, regardless of size, that can be identified as such, have driveways (paved or unpaved) for road  access, and that store one or more cars.
+
+######Capture Process:
+
+Special care should be applied to ensure sheds are not to be confused with garages. Oftentimes, driveways do lead to sheds, so not all structures at a terminating driveway are considered to be garages. Sheds are not to be captured.
+In general, standard dimensions for detached garages are approximately 12’x20’ or 14’x20’
+Use Parcel layer to place garages within parcel or at parcel boundary – check for special cases where parcel boundary clearly crosses garage. In these cases, either split the garage using physical features, or use the property line where there is no distinguishing physical feature.
+
+In cases where there is no BIN for the garage, a “dummy” BIN will be assigned as follows:
+
+• 1000000 for Manhattan,.
+
+• 2000000 for Bronx,
+
+• 3000000 for Brooklyn,
+
+• 4000000 for Queens,
+
+• 5000000 for Staten Island
+
+######Features Excluded:
+
+Do NOT collect small tool or storage sheds in backyards which have no visible car access.
+
+######Map:
+
+![Map](http://otile1.mqcdn.com/tiles/1.0.0/map/17/38599/49257.png)
+
+######Photo:
+
+![Photo](![Photo](https://pbs.twimg.com/profile_images/595637146054168577/OZ127kGE_400x400.jpg)
+
