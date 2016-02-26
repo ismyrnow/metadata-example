@@ -3,6 +3,7 @@
 
 ######[BOARDWALK](Capture_Rules/BOARDWALK_CR.md)
 ######[BUILDING_FOOTPRINT](Capture_Rules/BUILDING_FOOTPRINT_CR.md)
+######[BUILDING_FOOTPRINT - Tabular](Capture_Rules/BUILDING_FOOTPRINT_V2.md)
 ######[CSCL_STREET_CENTERLINE](Capture_Rules/CSCL_STREET_CENTERLINE_CR.md)
 ######[CURB](Capture_Rules/CURB_CR.md)
 ######[DELETED_LINE](Capture_Rules/DELETED_LINE_CR.md)
