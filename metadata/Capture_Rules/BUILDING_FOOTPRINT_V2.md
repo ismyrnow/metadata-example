@@ -1,10 +1,10 @@
 Table of contents
 - [Building Footprints](#building-footprints)
-- [Plaza](#section2)
+- [Plaza](#plaza)
 
 ## Building Footprints
 
-**Includes the following structures:** [Buildings](#buildings), [Garages](#garages)...
+**Includes the following structures:** [Buildings](#subtype-building), [Garages](#subtype-garage), [Under Construction Unknown](#subtype-building-uc-building-under-construction), and [Skybridge](subtype-skybridge)
 
 ### Subtype: BUILDING
 
@@ -39,13 +39,24 @@ Table of contents
 | Map | ![Map](http://otile1.mqcdn.com/tiles/1.0.0/map/17/38599/49257.png) |
 | Photo | ![Photo](https://pbs.twimg.com/profile_images/595637146054168577/OZ127kGE_400x400.jpg) |
 
+### Subtype: SKYBRIDGE
+
+|     |     |
+| --- | --- |
+| **Source Databases** | Update from imagery |
+| **Features Captured** | Capture buildings that are under construction AND their outside walls clearly indicate the shpe of the building. |
+| **Capture Process** |  |
+| **Features Excluded** | Do NOT collect small tool or storage sheds in backyards which have no visible car access. | 
+| Map | ![Map](http://otile1.mqcdn.com/tiles/1.0.0/map/17/38599/49257.png) |
+| Photo | ![Photo](https://pbs.twimg.com/profile_images/595637146054168577/OZ127kGE_400x400.jpg) |
+
 ## Plaza
 
 |     |     |
 | --- | --- |
 | **Source Databases** | Update from imagery |
-| **Features Captured** | Capture/update public space and plazas. These are hard surfaced "parks" adjacent to public sidewalks or pavement edges. Where a plaza is connected to a sidewalk by steps, the steps will be considered part of the plaza polygon. |
-| **Capture Process** | Planters at the edge of plaza will be included as part of the plaza boundary.<br><br>Plazas cannot overlap medians or sidewalks.<br><br>The following map can be used as a guide, though it is not an exhaustive list as it only includes areas that were given zoning benefits. [http://home2.nyc.gov/html/dcp/pdf/pops/pops_map.pdf](http://home2.nyc.gov/html/dcp/pdf/pops/pops_map.pdf) |
-| **Features Excluded** | Walkways within the plaza will be part of the overall plaza polygon and NOT be considered a separate polygon. | 
+| **Features Captured** | Elevated walkways that connect buildings will be captured as separate building polygons and coded as “Skybridge”. |
+| **Capture Process** | Skybridges will be populated with the “HEIGHT_ROOF” attribute only (not Ground Elevation).<br><br>These will be assigned a “dummy” million BIN during capture. |
+| **Features Excluded** |  | 
 | Map | ![Map](http://otile1.mqcdn.com/tiles/1.0.0/map/17/38599/49257.png) |
 | Photo | ![Photo](https://pbs.twimg.com/profile_images/595637146054168577/OZ127kGE_400x400.jpg) |
