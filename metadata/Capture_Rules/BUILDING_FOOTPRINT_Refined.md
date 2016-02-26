@@ -1,9 +1,3 @@
-Table of contents
-- [Building Footprints](#building-footprints)
-- [Garage](#garage)
-
-**Includes the following structures:** [Buildings](#subtype-building), [Garages](#subtype-garage), [Under Construction Unknown](#subtype-building-uc-building-under-construction), and [Skybridge](#subtype-skybrid
-
 #####Feature Code | *type*:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BUILDING&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;*polygon*
 
 ######Source Databases: Update existing database with BIN
