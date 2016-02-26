@@ -4,7 +4,7 @@ Table of contents
 
 ## Building Footprints
 
-**Includes the following structures:** [Buildings](#subtype-building), [Garages](#subtype-garage), [Under Construction Unknown](#subtype-building-uc-building-under-construction), and [Skybridge](subtype-skybridge)
+**Includes the following structures:** [Buildings](#subtype-building), [Garages](#subtype-garage), [Under Construction Unknown](#subtype-building-uc-building-under-construction), and [Skybridge](#subtype-skybridge)
 
 ### Subtype: BUILDING
 
