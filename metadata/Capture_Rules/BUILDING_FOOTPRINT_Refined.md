@@ -1,3 +1,13 @@
+Table of contents
+- [Building Footprints](#building-footprints)
+- [Garage](#garage)
+
+## Building Footprints
+
+**Includes the following structures:** [Buildings](#subtype-building), [Garages](#subtype-garage), [Under Construction Unknown](#subtype-building-uc-building-under-construction), and [Skybridge](#subtype-skybridge)
+
+#### Subtype: BUILDING
+
 #####Feature Code | *type*:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BUILDING&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;*polygon*
 
 ######Source Databases: Update existing database with BIN
@@ -43,6 +53,8 @@ Do NOT collect awnings, scaffolds, or sidewalk sheds.
 ![Photo](https://pbs.twimg.com/profile_images/595637146054168577/OZ127kGE_400x400.jpg)
 
 <br></br>
+
+#### Subtype: GARAGE
 
 #####Feature Code | *type*:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GARAGE&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;*polygon*
 
