@@ -86,5 +86,5 @@ Do NOT collect small tool or storage sheds in backyards which have no visible ca
 
 ######Photo:
 
-![Photo](![Photo](https://pbs.twimg.com/profile_images/595637146054168577/OZ127kGE_400x400.jpg)
+![Photo](https://pbs.twimg.com/profile_images/595637146054168577/OZ127kGE_400x400.jpg)
 
