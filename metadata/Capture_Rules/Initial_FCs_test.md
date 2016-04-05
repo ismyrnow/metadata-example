@@ -6,7 +6,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;[Curb](#curb)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Elevation](#elevation)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: BUILDING ELEVATION](#subtype-building-elevation)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: WATER ELEVATION](#subtype-water-elevation)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: SPOT ELEVATION](#subtype-spot-elevation)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: BRIDGE ELEVATION](#subtype-bridge-elevation)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Elevation Attributes](#elevation-attributes)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[Plaza](#plaza)<br>
+  [Plaza](#plaza)<br>
 
 # General Attribute Information
 
@@ -28,7 +28,7 @@ The following attribute information applies to all feature classes.  Additional 
 |     |     |
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery |
-| **Features Captured** | Boardwalks along beachfront |
+| **Features Captured** | Boardwalks along beachfront|
 | **Capture Notes** | Maintain beach outline/shoreline |
 | **Features Excluded** | n/a | 
 | Map |  |
