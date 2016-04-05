@@ -20,6 +20,21 @@ The following attribute information applies to all feature classes.  Additional 
 | **Sub_Feature_Code** | (where applicable) indicates a subset of features within a given “Feature_Code” set  |
 | **Status** | Field indicating the feature status as it fits into one of the following categories:<br>a) NEW. A feature captured for the first time during the 2014 planimetrics update project.<br>b) UPDATED. The feature existed previously but has been updated during the 2014 planimetrics update project.<br>c) UNCHANGED. The feature is unchanged from the source planimetrics database. |
 
+<br>
+# Boardwalk
+
+**Type: Polygon**
+
+|     |     |
+| --- | --- |
+| **Source Databases** | Updated from 2014 imagery |
+| **Features Captured** | Boardwalks along beachfront |
+| **Capture Notes** | Maintain beach outline/shoreline |
+| **Features Excluded** | n/a | 
+| Map |  |
+| Photo |  |
+
+<br>
 # Building Footprints
 
 **Type: Polygon**
@@ -90,6 +105,20 @@ The following attribute information applies to all feature classes.  Additional 
 <p align="center"><img src="https://cloud.githubusercontent.com/assets/3277588/14287639/6f62b2fe-fb21-11e5-9515-35784cf3d534.png" /></p>
 
 <p align="center"><img src="https://cloud.githubusercontent.com/assets/3277588/14287724/e7b77b72-fb21-11e5-8b08-4a83218c3b0e.png" /></p>
+
+<br>
+# Curb
+
+**Type: Polyline**
+
+|     |     |
+| --- | --- |
+| **Source Databases** | Updated from 2014 imagery |
+| **Features Captured** | All curbs between roadbed pavement and other surfaces (i.e., within the street right-of-way) were captured. |
+| **Capture Notes** |  |
+| **Features Excluded** | Curbs inside Parking lots will not be captured. | 
+| Map |  |
+| Photo |  |
 
 <br>
 # Elevation
