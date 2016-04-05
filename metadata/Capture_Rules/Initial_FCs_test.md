@@ -1,6 +1,19 @@
-Table of contents
-- [Building Footprints](#building-footprints)
-- [Plaza](#plaza)
+**Table of contents**<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[General Attribute Information](#general-attribute-information)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Building Footprints](#building-footprints)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Plaza](#plaza)<br>
+
+# General Attribute Information
+
+The following attribute information applies to all feature classes.  Additional attributes specific to a given feature class are listed within the details for that feature class.
+
+|     |     |
+| --- | --- |
+| **Attribute** | Description |
+| **Source_ID** | Unique feature ID |
+| **Feature_Code** |   |
+| **Sub_Feature_Code** |   |
+| **Status** | Field indicating the feature status as it fits into one of the following categories:<br>a) NEW. A feature captured for the first time during the 2014 planimetrics update project.<br>b) UPDATED. The feature existed previously but has been updated during the 2014 planimetrics update project.<br>c) UNCHANGED. The feature is unchanged from the source planimetrics database. |
 
 # Building Footprints
 
@@ -17,7 +30,7 @@ Table of contents
 | **Features Captured** | Collect all buildings with well-defined walls and roofs that are >400 sq. feet and taller than 12 feet.<br><br>Buildings with <12 feet height but with BIN should be captured.<br><br>Buildings with BIN but <400 sq. feet will be captured.<br><br>Buildings with flat roofs will be captured on roof outline, capturing the largest outline (excluding overhangs, awnings, construction features, etc.).<br><br>Buildings with pitched roofs will be captured on the building footprint.<br><br>Carports, when attached to main building, will be included in the outline. Do not collect interior divisions (use existing building layer and BIN as guide). |
 | **Capture Process** | Use parcel data and BIN as guidance for collection. Where the parcel data indicates that a building should be two or more geometries AND there is NO physical indication, split the building using the parcel lines. Where the parcel data indicates that a building should be two or more geometries AND there is a physical indication, split the building using the physical indications. If an existing building is going to split into several new buildings, keep the original BIN in only one of the new buildings (ideally the largest) and assign a million BIN to the rest. Do not duplicate BINS.<br><br>Building footprints that are adjacent, have different BINS and are on one tax lot should be flagged and verified during update.<br><br>If a building is demolished (i.e., if the building has a different shape), the BIN is also deleted and is not to be used for any new building geometry.<br><br>Small triangles denote a permit is out to construct a new building at the location and are added by DoITT building editors. These triangles should be removed when new buildings are added. Therefore if a new building has been constructed in the new orthos please collect building, transfer attributes from triangle to building, and delete triangle. If no new building is visible on the orthos, please leave triangles alone (and they will be exceptions in the QC model). |
 | **Features Excluded** | The following features are not captured:<br>•  temporary trailers, tents, or roofs at gas stations (over pumps).<br>• roofs (overhang) to gas stations, unless connected to building.<br>• movable jet bridge for access to aircraft<br>• awnings, scaffolds, or sidewalk sheds. | 
-| Map | ) |
+| Map |  |
 | Photo |  |
 
 <br>
