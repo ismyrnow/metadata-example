@@ -14,9 +14,9 @@ The following attribute information applies to all feature classes.  Additional 
 |     |     |
 | --- | --- |
 | **Attribute** | Description |
-| **Source_ID** | Unique feature ID |
-| **Feature_Code** |   |
-| **Sub_Feature_Code** |   |
+| **Source_ID** | Unique feature Identification Number |
+| **Feature_Code** | Indicates the type of feature  |
+| **Sub_Feature_Code** | (where applicable) indicates a subset of features within a given “Feature_Code” set  |
 | **Status** | Field indicating the feature status as it fits into one of the following categories:<br>a) NEW. A feature captured for the first time during the 2014 planimetrics update project.<br>b) UPDATED. The feature existed previously but has been updated during the 2014 planimetrics update project.<br>c) UNCHANGED. The feature is unchanged from the source planimetrics database. |
 
 # Building Footprints
@@ -30,8 +30,8 @@ The following attribute information applies to all feature classes.  Additional 
 
 |     |     |
 | --- | --- |
-| **Source Databases** | Updated from 2014 imagery<br><br>Use existing building database for reference and for BIN values. |
-| **Features Captured** | Collect all buildings with well-defined walls and roofs that are >400 sq. feet and taller than 12 feet.<br><br>Buildings with <12 feet height but with BIN should be captured.<br><br>Buildings with BIN but <400 sq. feet will be captured.<br><br>Buildings with flat roofs will be captured on roof outline, capturing the largest outline (excluding overhangs, awnings, construction features, etc.).<br><br>Buildings with pitched roofs will be captured on the building footprint.<br><br>Carports, when attached to main building, will be included in the outline. Do not collect interior divisions (use existing building layer and BIN as guide). |
+| **Source Databases** | Updated from 2014 imagery<br><br>Used existing building database for reference and for BIN values. |
+| **Features Captured** | Collected all buildings with well-defined walls and roofs that are >400 sq. feet and taller than 12 feet.<br><br>Buildings with <12 feet height but with BIN were captured.<br><br>Buildings with BIN but <400 sq. feet were captured.<br><br>Buildings with flat roofs were captured on roof outline, capturing the largest outline (excluding overhangs, awnings, construction features, etc.).<br><br>Buildings with pitched roofs were captured on the building footprint.<br><br>Carports, when attached to main building, were included in the outline. Do not collect interior divisions within buildings were not captured (used existing building layer and BIN as guide). |
 | **Capture Notes** | Use parcel data and BIN as guidance for collection. Where the parcel data indicates that a building should be two or more geometries AND there is NO physical indication, split the building using the parcel lines. Where the parcel data indicates that a building should be two or more geometries AND there is a physical indication, split the building using the physical indications. If an existing building is going to split into several new buildings, keep the original BIN in only one of the new buildings (ideally the largest) and assign a million BIN to the rest. Do not duplicate BINS.<br><br>Building footprints that are adjacent, have different BINS and are on one tax lot should be flagged and verified during update.<br><br>If a building is demolished (i.e., if the building has a different shape), the BIN is also deleted and is not to be used for any new building geometry.<br><br>Small triangles denote a permit is out to construct a new building at the location and are added by DoITT building editors. These triangles should be removed when new buildings are added. Therefore if a new building has been constructed in the new orthos please collect building, transfer attributes from triangle to building, and delete triangle. If no new building is visible on the orthos, please leave triangles alone (and they will be exceptions in the QC model). |
 | **Features Excluded** | The following features are not captured:<br>•  temporary trailers, tents, or roofs at gas stations (over pumps).<br>• roofs (overhang) to gas stations, unless connected to building.<br>• movable jet bridge for access to aircraft<br>• awnings, scaffolds, or sidewalk sheds. | 
 | Map |  |
@@ -42,10 +42,10 @@ The following attribute information applies to all feature classes.  Additional 
 
 |     |     |
 | --- | --- |
-| **Source Databases** | Updated from 2014 imagery<br><br>Use existing building database for reference and for BIN values.<br><br>Use DOF TaxMapas a reference |
-| **Features Captured** | Collect all garages, regardless of size, that can be identified as such, have driveways (paved or unpaved) for road  access, and that store one or more cars. |
+| **Source Databases** | Updated from 2014 imagery<br><br>Used existing building database for reference and for BIN values.<br><br>Used DOF TaxMapas a reference |
+| **Features Captured** | CAll garages were captured, regardless of size.  To be considered a garage, the structure must have a driveway (paved or unpaved) for road  access, and be able to store one or more cars. |
 | **Capture Notes** | Special care should be applied to ensure sheds are not confused with garages. In general, standard dimensions for detached garages are approximately 12’x20’ or 14’x20’<br><br>Use Parcel layer to place garages within parcel or at parcel boundary – check for special cases where parcel boundary clearly crosses garage. In these cases, either split the garage using physical features, or use the property line where there is no distinguishing physical feature.<br><br>In cases where there is no BIN for the garage, a “dummy” BIN will be assigned as follows:<br>• 1000000 for Manhattan,<br>• 2000000 for Bronx,<br>• 3000000 for Brooklyn,<br>• 4000000 for Queens,<br>• 5000000 for Staten Island |
-| **Features Excluded** | Do NOT collect when only the foundation is visible or building is being destroyed. | 
+| **Features Excluded** | Small tool or storage sheds in backyards which have no visible car access were not captured | 
 | Map |  |
 | Photo |  |
 
@@ -68,7 +68,7 @@ The following attribute information applies to all feature classes.  Additional 
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery |
 | **Features Captured** | Elevated walkways that connect buildings were captured as separate building polygons and coded as “Skybridge”. |
-| **Capture Notes** | Skybridges will be populated with the “HEIGHT_ROOF” attribute only (not Ground Elevation).<br><br>These will be assigned a “dummy” million BIN during capture. |
+| **Capture Notes** | Skybridges will be populated with the “HEIGHT_ROOF” attribute only (not Ground Elevation).<br><br>These were assigned a “dummy” million BIN during capture. |
 | **Features Excluded** |  | 
 | Map |  |
 | Photo |  |
@@ -129,7 +129,7 @@ The following attribute information applies to all feature classes.  Additional 
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery and existing planimetrics |
 | **Features Captured** | Spot elevations were captured on paved, unpaved, and alley subtypes in CSCL Centerline and all Interior Sidewalk Centerline.   Elevation points were placed in the center of the roadbed (coincident with CSCL), captured at beginning, mid-point, end, and at 200’ spacing of the visible roadbed. |
-| **Capture Notes** | In areas where the PAVEMENTEDGE has been updated, any existing SPOT elevations will be updated.<br><br>For new streets, new spot elevations were created in the center of the roadbed according to the following rules:<br><br>1) Placed at Intersections (might not necessarily be at the same location as the node from the CL, one point per intersection even on complex intersections).<br><br>2) Placed Every 200 feet when midpoint of bridge or city block exceeds distance.<br><br>3) Placed on paved, unpaved, alley subtypes in CSCL Centerline and all of Interior Sidewalk Centerline.  Spot elevation will not be added to a CSCL if no roadbed exists (e,g, area is under construction).<br><br>4) Mid-Street segment – at the approximate mid-point of a street segment. |
+| **Capture Notes** | In areas where the PAVEMENTEDGE has been updated, any existing SPOT elevations will be updated.<br><br>For new streets, new spot elevations were created in the center of the roadbed according to the following rules:<br>1) Placed at Intersections (might not necessarily be at the same location as the node from the CL, one point per intersection even on complex intersections).<br>2) Placed Every 200 feet when midpoint of bridge or city block exceeds distance.<br>3) Placed on paved, unpaved, alley subtypes in CSCL Centerline and all of Interior Sidewalk Centerline.  Spot elevation will not be added to a CSCL if no roadbed exists (e,g, area is under construction).<br>4) Mid-Street segment – at the approximate mid-point of a street segment. |
 | **Features Excluded** | Spot elevations were not be captured on a CSCL if no roadbed exists | 
 | Map |  |
 | Photo |  |
@@ -164,7 +164,8 @@ The following attribute information applies to all feature classes.  Additional 
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery |
 | **Features Captured** | Plazas are hard surfaced "parks" adjacent to public sidewalks or pavement edges. |
-| **Capture Notes** | Private plazas were not captured. |
-| **Features Excluded** |  | 
+| **Capture Notes** | All public space plazas were captured or updated.  Where a plaza is connected to a sidewalk by steps, the steps were considered to be part of the plaza polygon. Planters at the edge of plaza were included as part of the plaza boundary.
+Plazas cannot overlap medians or sidewalks. Walkways within the plaza were captured as part of the overall plaza polygon and were not considered a separate polygon. |
+| **Features Excluded** | Private plazas were not captured. | 
 | Map |  |
 | Photo |  |
