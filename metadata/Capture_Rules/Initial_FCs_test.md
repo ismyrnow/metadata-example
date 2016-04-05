@@ -95,7 +95,7 @@ The following attribute information applies to all feature classes.  Additional 
 
 **Type: Point**
 
-**Includes the following structures:** [Building Elevation](#building-elevation), [Water Elevation](#water-elevation), [Spot Elevation](#spot-elevation), and [Bridge Elevation](#bridge-elevation)
+**Includes the following structures:** [Building Elevation](#subtype-building-elevation), [Water Elevation](#subtype-water-elevation), [Spot Elevation](#subtype-spot-elevation), and [Bridge Elevation](#subtype-bridge-elevation)
 
 
 <br>
@@ -121,6 +121,39 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Excluded** |  | 
 | Map |  |
 | Photo |  |
+
+<br>
+### Subtype: SPOT ELEVATION
+
+|     |     |
+| --- | --- |
+| **Source Databases** | Updated from 2014 imagery and existing planimetrics |
+| **Features Captured** | Spot elevations were captured on paved, unpaved, and alley subtypes in CSCL Centerline and all Interior Sidewalk Centerline.   Elevation points were placed in the center of the roadbed (coincident with CSCL), captured at beginning, mid-point, end, and at 200’ spacing of the visible roadbed. |
+| **Capture Notes** | In areas where the PAVEMENTEDGE has been updated, any existing SPOT elevations will be updated.<br><br>For new streets, new spot elevations were created in the center of the roadbed according to the following rules:<br><br>1) Placed at Intersections (might not necessarily be at the same location as the node from the CL, one point per intersection even on complex intersections).<br><br>2) Placed Every 200 feet when midpoint of bridge or city block exceeds distance.<br><br>3) Placed on paved, unpaved, alley subtypes in CSCL Centerline and all of Interior Sidewalk Centerline.  Spot elevation will not be added to a CSCL if no roadbed exists (e,g, area is under construction).<br><br>4) Mid-Street segment – at the approximate mid-point of a street segment. |
+| **Features Excluded** | Spot elevations were not be captured on a CSCL if no roadbed exists | 
+| Map |  |
+| Photo |  |
+
+<br>
+### Subtype: BRIDGE ELEVATION
+
+|     |     |
+| --- | --- |
+| **Source Databases** | Updated from 2014 imagery and existing planimetrics |
+| **Features Captured** |  |
+| **Capture Notes** | This is a subset of spot elevations. Elevation points were captured at the beginning, mid-point, end, and at 200’ spacing of the visible deck of bridges and overpasses. |
+| **Features Excluded** | Elevation points were not collected for pedestrian/bike bridges. | 
+| Map |  |
+| Photo |  |
+
+
+<br>
+#### Elevation Attributes
+
+|     |     |
+| --- | --- |
+| **Attribute** | Description |
+| **Elevation** | Field measuring surface elevation above sea level (in feet) |
 
 <br>
 # Plaza
