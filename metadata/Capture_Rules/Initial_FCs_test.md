@@ -62,7 +62,8 @@ Table of contents
 
 #### Building Footprint Diagrams
 ##### Calculating HEIGHT_ROOF
-!(https://pbs.twimg.com/profile_images/595637146054168577/OZ127kGE_400x400.jpg)
+
+<img src="https://cloud.githubusercontent.com/assets/3277588/13061300/2e550926-d405-11e5-9dbc-967417669dee.jpg" width="200" height="200" />
 
 ## Plaza
 
