@@ -84,7 +84,7 @@ The following attribute information applies to all feature classes.  Additional 
 
 <br>
 #### Building Footprint Diagrams
-<p align="center">**Calculating HEIGHT_ROOF**</p>
+###<p align="center">**Calculating HEIGHT_ROOF**</p>
 
 <p align="center"><img src="https://cloud.githubusercontent.com/assets/3277588/14287639/6f62b2fe-fb21-11e5-9515-35784cf3d534.png" /></p>
 
