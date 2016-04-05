@@ -78,17 +78,17 @@ The following attribute information applies to all feature classes.  Additional 
 
 |     |     |
 | --- | --- |
-| **Attribute** | Description |
+| <p align="center">**Attribute**</p> | <p align="center">Description</p> |
 | **HEIGHT_ROOF** | Building roof height is calculated as the difference between ground elevation of the building and the roof elevation value.  The roof elevation is the highest point of the roof itself (see BUILDING ELEVATION in the ELEVATION Feature Class). See diagrams below. |
 | **GROUND_ELEVATION** | Lowest Elevation at the building ground level.  Calculated from LiDAR or photogrammetrically. |
 
 <br>
 #### Building Footprint Diagrams
-##### Calculating HEIGHT_ROOF
+<p align="center">**Calculating HEIGHT_ROOF**</p>
 
-<img src="https://cloud.githubusercontent.com/assets/3277588/14287639/6f62b2fe-fb21-11e5-9515-35784cf3d534.png" />
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/3277588/14287639/6f62b2fe-fb21-11e5-9515-35784cf3d534.png" /></p>
 
-<img src="https://cloud.githubusercontent.com/assets/3277588/14287724/e7b77b72-fb21-11e5-8b08-4a83218c3b0e.png" />
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/3277588/14287724/e7b77b72-fb21-11e5-8b08-4a83218c3b0e.png" /></p>
 
 <br>
 # Elevation
@@ -152,7 +152,7 @@ The following attribute information applies to all feature classes.  Additional 
 
 |     |     |
 | --- | --- |
-| **Attribute** | Description |
+| <p align="center">**Attribute**</p> | <p align="center">Description</p> |
 | **Elevation** | Field measuring surface elevation above sea level (in feet) |
 
 <br>
@@ -164,8 +164,7 @@ The following attribute information applies to all feature classes.  Additional 
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery |
 | **Features Captured** | Plazas are hard surfaced "parks" adjacent to public sidewalks or pavement edges. |
-| **Capture Notes** | All public space plazas were captured or updated.  Where a plaza is connected to a sidewalk by steps, the steps were considered to be part of the plaza polygon. Planters at the edge of plaza were included as part of the plaza boundary.
-Plazas cannot overlap medians or sidewalks. Walkways within the plaza were captured as part of the overall plaza polygon and were not considered a separate polygon. |
+| **Capture Notes** | All public space plazas were captured or updated.  Where a plaza is connected to a sidewalk by steps, the steps were considered to be part of the plaza polygon. Planters at the edge of plaza were included as part of the plaza boundary.  Plazas cannot overlap medians or sidewalks. Walkways within the plaza were captured as part of the overall plaza polygon and were not considered a separate polygon. |
 | **Features Excluded** | Private plazas were not captured. | 
 | Map |  |
 | Photo |  |
