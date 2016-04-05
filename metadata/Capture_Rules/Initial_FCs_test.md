@@ -2,12 +2,13 @@ Table of contents
 - [Building Footprints](#building-footprints)
 - [Plaza](#plaza)
 
-## Building Footprints
+# Building Footprints
 
 **Type: Polygon**
 
 **Includes the following structures:** [Buildings](#subtype-building), [Garages](#subtype-garage), [Under Construction Unknown](#subtype-building-uc-building-under-construction), and [Skybridge](#subtype-skybridge)
 
+<br>
 ### Subtype: BUILDING
 
 |     |     |
@@ -19,6 +20,7 @@ Table of contents
 | Map | ![Map](http://otile1.mqcdn.com/tiles/1.0.0/map/17/38599/49257.png) |
 | Photo | ![Photo](https://pbs.twimg.com/profile_images/595637146054168577/OZ127kGE_400x400.jpg) |
 
+<br>
 ### Subtype: GARAGE
 
 |     |     |
@@ -30,6 +32,7 @@ Table of contents
 | Map | ![Map](http://otile1.mqcdn.com/tiles/1.0.0/map/17/38599/49257.png) |
 | Photo | ![Photo](https://pbs.twimg.com/profile_images/595637146054168577/OZ127kGE_400x400.jpg) |
 
+<br>
 ### Subtype: BUILDING U/C *(Building under Construction)*
 
 |     |     |
@@ -41,6 +44,7 @@ Table of contents
 | Map | ![Map](http://otile1.mqcdn.com/tiles/1.0.0/map/17/38599/49257.png) |
 | Photo | ![Photo](https://pbs.twimg.com/profile_images/595637146054168577/OZ127kGE_400x400.jpg) |
 
+<br>
 ### Subtype: SKYBRIDGE
 
 |     |     |
@@ -52,6 +56,7 @@ Table of contents
 | Map | ![Map](http://otile1.mqcdn.com/tiles/1.0.0/map/17/38599/49257.png) |
 | Photo | ![Photo](https://pbs.twimg.com/profile_images/595637146054168577/OZ127kGE_400x400.jpg) |
 
+<br>
 #### Building Footprint Attributes
 
 |     |     |
@@ -60,6 +65,7 @@ Table of contents
 | **HEIGHT_ROOF** | Building roof height is calculated as the difference between ground elevation of the building and the roof elevation value.  The roof elevation is the highest point of the roof itself (see BUILDING ELEVATION in the ELEVATION Feature Class). See diagrams below. |
 | **GROUND_ELEVATION** | Lowest Elevation at the building ground level.  Calculated from LiDAR or photogrammetrically. |
 
+<br>
 #### Building Footprint Diagrams
 ##### Calculating HEIGHT_ROOF
 
@@ -67,7 +73,7 @@ Table of contents
 
 <img src="https://cloud.githubusercontent.com/assets/3277588/14287724/e7b77b72-fb21-11e5-8b08-4a83218c3b0e.png" />
 
-
+<br>
 ## Plaza
 
 |     |     |
