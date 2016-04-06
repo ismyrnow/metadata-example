@@ -184,7 +184,7 @@ The following attribute information applies to all feature classes.  Additional 
 |     |     |
 | --- | --- |
 | <p align="center">**Attribute**</p> | <p align="center">Description</p> |
-| **Elevation** | Field measuring surface elevation above sea level (in feet) |
+| <p align="center">**Elevation**</p> | <p align="center">Field measuring surface elevation above sea level (in feet)</p> |
 
 <br>
 # Plaza
