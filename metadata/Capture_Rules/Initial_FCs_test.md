@@ -19,6 +19,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Feature_Code** | Indicates the type of feature  |
 | **Sub_Feature_Code** | (where applicable) indicates a subset of features within a given “Feature_Code” set  |
 | **Status** | Field indicating the feature status as it fits into one of the following categories:<br>a) NEW. A feature captured for the first time during the 2014 planimetrics update project.<br>b) UPDATED. The feature existed previously but has been updated during the 2014 planimetrics update project.<br>c) UNCHANGED. The feature is unchanged from the source planimetrics database. |
+|     |     |
 
 <br>
 # Boardwalk
