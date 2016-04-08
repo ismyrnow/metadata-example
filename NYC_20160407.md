@@ -17,7 +17,7 @@ The source imagery was captured on the following dates: <br>• Manhattan - June
 &nbsp;&nbsp;&nbsp;&nbsp;[Building Footprints](#building-footprints)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Building](#subtype-building)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Garage](#subtype-garage)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Building U/C (Building Under Construction](#subtype-building-uc-building-under-construction)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Building U/C (Building Under Construction)](#subtype-building-uc-building-under-construction)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Skybridge](#subtype-skybridge)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Building Footprint Attributes](#building-footprint-attributes)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Building Footprint Diagrams](#building-footprint-diagrams)<br>
