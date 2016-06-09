@@ -738,7 +738,7 @@ The following attribute information applies to all feature classes.  Additional 
 |     |     |
 | --- | --- |
 | <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
-| **[Park Boundary](#subtype-park-boundary** | <p align="center">2100</p> |
+| **[Park Boundary](#subtype-park-boundary)** | <p align="center">2100</p> |
 | **[Baseball/Softball Field](#subtype-baseballsoftball-field)** | <p align="center">2110</p> |
 | **[Basketball Court](#subtype-basketball-court)** | <p align="center">5100</p> |
 | **[Handball](#subtype-handball)** | <p align="center">5110</p> |
