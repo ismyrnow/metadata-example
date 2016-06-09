@@ -1544,12 +1544,12 @@ Schools |
 |     |     |
 | --- | --- |
 | <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
-| **[Building](#subtype-building)** | <p align="center">2100</p> |
-| **[Garage](#subtype-garage)** | <p align="center">2110</p> |
-| **[Building Under Construction](#subtype-building-uc-building-under-construction)** | <p align="center">5100</p> |
-| **[Sky Bridge](#subtype-skybridge)** | <p align="center">5110</p> |
-
-**Subtypes:** [Bridge](#subtype-bridge), [Tunnel](#subtype-tunnel), [Rail Bridge](#subtype-rail-bridge), [Pedestrian/Bike Bridge](#subtype-pedestrianbike-bridge), [Railroad Viaduct](#subtype-railroad-viaduct), and [Overpass](#subtype-overpass)
+| **[Bridge](#subtype-bridge)** | <p align="center">2100</p> |
+| **[Tunnel](#subtype-tunnel)** | <p align="center">2110</p> |
+| **[Rail Bridge](#subtype-rail-bridge)** | <p align="center">5100</p> |
+| **Pedestrian/Bike Bridge](#subtype-pedestrianbike-bridge)** | <p align="center">5110</p> |
+| **Railroad Viaduct](#subtype-railroad-viaduct)** | <p align="center">5110</p> |
+| **Overpass](#subtype-overpass)** | <p align="center">5110</p> |
 
 [**Attributes**](#transport-structure-attributes)<br>
 <br>
