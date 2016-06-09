@@ -248,8 +248,6 @@ The following attribute information applies to all feature classes.  Additional 
 | **[Spot Elevation](#subtype-spot-elevation)** | <p align="center">5100</p> |
 | **[Bridge Elevation](#subtype-bridge-elevation)** | <p align="center">5110</p> |
 
-**Subtypes:** [Building Elevation](#subtype-building-elevation), [Water Elevation](#subtype-water-elevation), [Spot Elevation](#subtype-spot-elevation), and [Bridge Elevation](#subtype-bridge-elevation)
-
 [**Attributes**](#elevation-attributes)<br>
 
 [**Diagrams**](#elevation-diagrams)<br>
