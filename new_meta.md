@@ -330,7 +330,7 @@ The following attribute information applies to all feature classes.  Additional 
 |     |     |
 | --- | --- |
 | <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
-| **[Piers](#subtype-piers))** | <p align="center">2100</p> |
+| **[Piers](#subtype-piers)** | <p align="center">2100</p> |
 | **[Jetty](#subtype-jetty)** | <p align="center">2110</p> |
 | **[Seawall](#subtype-seawall)** | <p align="center">5100</p> |
 
