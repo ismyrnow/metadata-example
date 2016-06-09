@@ -108,7 +108,13 @@ The following attribute information applies to all feature classes.  Additional 
 
 **Geometry Type:** Polygon
 
-**Subtypes:** [Building](#subtype-building), [Garage](#subtype-garage), [Under Construction Unknown](#subtype-building-uc-building-under-construction), and [Skybridge](#subtype-skybridge)
+|     |     |
+| --- | --- |
+| <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
+| **[Building](#subtype-building)** | <p align="center">2100</p> |
+| **[Garage](#subtype-garage)** | <p align="center">2110</p> |
+| **[Building Under Construction](#subtype-building-uc-building-under-construction)** | <p align="center">5100</p> |
+| **[Sky Bridge](#subtype-skybridge)** | <p align="center">5110</p> |
 
 [**Attributes**](#building-footprint-attributes)<br>
 
@@ -234,6 +240,14 @@ The following attribute information applies to all feature classes.  Additional 
 
 **Geometry Type:** Point
 
+|     |     |
+| --- | --- |
+| <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
+| **[Building](#subtype-building)** | <p align="center">2100</p> |
+| **[Garage](#subtype-garage)** | <p align="center">2110</p> |
+| **[Building Under Construction](#subtype-building-uc-building-under-construction)** | <p align="center">5100</p> |
+| **[Sky Bridge](#subtype-skybridge)** | <p align="center">5110</p> |
+
 **Subtypes:** [Building Elevation](#subtype-building-elevation), [Water Elevation](#subtype-water-elevation), [Spot Elevation](#subtype-spot-elevation), and [Bridge Elevation](#subtype-bridge-elevation)
 
 [**Attributes**](#elevation-attributes)<br>
@@ -313,6 +327,14 @@ The following attribute information applies to all feature classes.  Additional 
 
 **Geometry Type:** Polygon
 
+|     |     |
+| --- | --- |
+| <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
+| **[Building](#subtype-building)** | <p align="center">2100</p> |
+| **[Garage](#subtype-garage)** | <p align="center">2110</p> |
+| **[Building Under Construction](#subtype-building-uc-building-under-construction)** | <p align="center">5100</p> |
+| **[Sky Bridge](#subtype-skybridge)** | <p align="center">5110</p> |
+
 **Subtypes:** [Piers](#subtype-piers), [Jetty](#subtype-jetty), and [Seawall](#subtype-seawall)
 
 [**Attributes**](#hydro-structure-attributes)<br>
@@ -368,6 +390,14 @@ The following attribute information applies to all feature classes.  Additional 
 # HYDROGRAPHY
 
 **Geometry Type:** Polygon
+
+|     |     |
+| --- | --- |
+| <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
+| **[Building](#subtype-building)** | <p align="center">2100</p> |
+| **[Garage](#subtype-garage)** | <p align="center">2110</p> |
+| **[Building Under Construction](#subtype-building-uc-building-under-construction)** | <p align="center">5100</p> |
+| **[Sky Bridge](#subtype-skybridge)** | <p align="center">5110</p> |
 
 **Subtypes:** [Lake/Reservoir](#subtype-lakereservoir), [Pond](#subtype-pond), [River](#subtype-river), [Stream](#subtype-stream), [Wetland/Marsh](#subtype-wetlandmarsh), [Beach/Shoreline](#subtype-beachshoreline), and [Bay/Ocean](#subtype-bayocean)
 
@@ -478,6 +508,14 @@ The following attribute information applies to all feature classes.  Additional 
 
 **Geometry Type:** Polygon
 
+|     |     |
+| --- | --- |
+| <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
+| **[Building](#subtype-building)** | <p align="center">2100</p> |
+| **[Garage](#subtype-garage)** | <p align="center">2110</p> |
+| **[Building Under Construction](#subtype-building-uc-building-under-construction)** | <p align="center">5100</p> |
+| **[Sky Bridge](#subtype-skybridge)** | <p align="center">5110</p> |
+
 **Subtypes:** [Median_Painted](#subtype-median_painted), [Median_Curb](#subtype-median_curb), [Median_Rail](#subtype-median_rail), [Median_Fence](#subtype-median_fence), [Median_Grass](#subtype-median_grass), and [Median_Barrier](#subtype-median_barrier)
 
 *Rule: Medians were not intersected by <a href="https://data.ny.gov/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b/about">CSCL</a> on the same road except in some rare occasions (e.g. at street intersections with medians). Median type hierarchy is as follows: barrier, rail, fence, curb, grass and painted.*<br>
@@ -575,6 +613,14 @@ The following attribute information applies to all feature classes.  Additional 
 
 **Geometry Type:** Polygon
 
+|     |     |
+| --- | --- |
+| <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
+| **[Building](#subtype-building)** | <p align="center">2100</p> |
+| **[Garage](#subtype-garage)** | <p align="center">2110</p> |
+| **[Building Under Construction](#subtype-building-uc-building-under-construction)** | <p align="center">5100</p> |
+| **[Sky Bridge](#subtype-skybridge)** | <p align="center">5110</p> |
+
 **Subtypes:** [Large Billboard and Signs](#subtype-large-billboard-and-signs), [Sign Gantry](#subtype-sign-gantry), and [Toll Area](#subtype-toll-area)
 
 [**Attributes**](#misc-struct-poly-attributes)<br>
@@ -632,6 +678,14 @@ The following attribute information applies to all feature classes.  Additional 
 
 **Geometry Type:** Polygon
 
+|     |     |
+| --- | --- |
+| <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
+| **[Building](#subtype-building)** | <p align="center">2100</p> |
+| **[Garage](#subtype-garage)** | <p align="center">2110</p> |
+| **[Building Under Construction](#subtype-building-uc-building-under-construction)** | <p align="center">5100</p> |
+| **[Sky Bridge](#subtype-skybridge)** | <p align="center">5110</p> |
+
 **Subtypes:** [Cemetery Outline](#subtype-cemetery-outline), [Recreational Area](#subtype-recreational-area), and [Vacant Area](#subtype-vacant-area)
 
 [**Attributes**](#open-space-attributes)<br>
@@ -688,6 +742,14 @@ The following attribute information applies to all feature classes.  Additional 
 # PARK
 
 **Geometry Type:** Polygon
+
+|     |     |
+| --- | --- |
+| <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
+| **[Building](#subtype-building)** | <p align="center">2100</p> |
+| **[Garage](#subtype-garage)** | <p align="center">2110</p> |
+| **[Building Under Construction](#subtype-building-uc-building-under-construction)** | <p align="center">5100</p> |
+| **[Sky Bridge](#subtype-skybridge)** | <p align="center">5110</p> |
 
 **Subtypes:** [Park Boundary](#subtype-park-boundary), [Baseball/Softball Field](#subtype-baseballsoftball-field), [Basketball Court](#subtype-basketball-court), [Handball](#subtype-handball), [Multipurpose Court](#subtype-multipurpose-court), [Tennis Court](#subtype-tennis-court), [Volleyball](#subtype-volleyball), [Football Field](#subtype-football-field), [Soccer Field](#subtype-soccer-field), [Golf Course](#subtype-golf-course), [Pools](#subtype-pools), [Track](#subtype-track), [Skating Rink](#subtype-skating-rink), and [Greenstreets](#subtype-greenstreets)
 
@@ -908,6 +970,14 @@ The following attribute information applies to all feature classes.  Additional 
 
 **Geometry Type:** Polyline
 
+|     |     |
+| --- | --- |
+| <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
+| **[Building](#subtype-building)** | <p align="center">2100</p> |
+| **[Garage](#subtype-garage)** | <p align="center">2110</p> |
+| **[Building Under Construction](#subtype-building-uc-building-under-construction)** | <p align="center">5100</p> |
+| **[Sky Bridge](#subtype-skybridge)** | <p align="center">5110</p> |
+
 **Subtypes:** [Edge Of Pavement](#subtype-edge-of-pavement), [Airport Runway](#subtype-airport-runway), and [Alley](#subtype-alley)
 
 [**Attributes**](#pavement-edge-attributes)<br>
@@ -1062,6 +1132,14 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 
 **Geometry Type:** Polyline
 
+|     |     |
+| --- | --- |
+| <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
+| **[Building](#subtype-building)** | <p align="center">2100</p> |
+| **[Garage](#subtype-garage)** | <p align="center">2110</p> |
+| **[Building Under Construction](#subtype-building-uc-building-under-construction)** | <p align="center">5100</p> |
+| **[Sky Bridge](#subtype-skybridge)** | <p align="center">5110</p> |
+
 **Subtypes:** [Railroad](#subtype-railroad), [Elevated Railroad](#subtype-elevated-railroad), [Embankment Railroad](#subtype-embankment-railroad), [Viaduct Centerline](#subtype-viaduct-centerline), [Depression Railroad](#subtype-depression-railroad), [Railway Fence](#subtype-railway-fence), and [Abandoned Railroad](#subtype-abandoned-railroad)
 
 [**Attributes**](#railroad-attributes)<br>
@@ -1171,6 +1249,14 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 
 **Geometry Type:** Polygon
 
+|     |     |
+| --- | --- |
+| <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
+| **[Building](#subtype-building)** | <p align="center">2100</p> |
+| **[Garage](#subtype-garage)** | <p align="center">2110</p> |
+| **[Building Under Construction](#subtype-building-uc-building-under-construction)** | <p align="center">5100</p> |
+| **[Sky Bridge](#subtype-skybridge)** | <p align="center">5110</p> |
+
 **Subtypes:** [Subway/Train Station](#subtype-subwaytrain-station), [Elevated Subway/Train Station](#subtype-elevated-subwaytrain-station), [Ventilation Grate](#subtype-ventilation-grate), [Emergency Exit](#subtype-emergency-exit), and [Transit Entrance](#subtype-transit-entrance)
 
 [**Attributes**](#railroad-structure-attributes)<br>
@@ -1254,6 +1340,14 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 
 **Geometry Type:** Polyline
 
+|     |     |
+| --- | --- |
+| <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
+| **[Building](#subtype-building)** | <p align="center">2100</p> |
+| **[Garage](#subtype-garage)** | <p align="center">2110</p> |
+| **[Building Under Construction](#subtype-building-uc-building-under-construction)** | <p align="center">5100</p> |
+| **[Sky Bridge](#subtype-skybridge)** | <p align="center">5110</p> |
+
 **Subtypes:** [Retaining Wall](#subtype-retaining-wall) and [Railroad Retaining Wall](#subtype-railroad-retaining-wall)
 
 <br>
@@ -1286,6 +1380,14 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 # ROADBED
 
 **Geometry Type:** Polygon
+
+|     |     |
+| --- | --- |
+| <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
+| **[Building](#subtype-building)** | <p align="center">2100</p> |
+| **[Garage](#subtype-garage)** | <p align="center">2110</p> |
+| **[Building Under Construction](#subtype-building-uc-building-under-construction)** | <p align="center">5100</p> |
+| **[Sky Bridge](#subtype-skybridge)** | <p align="center">5110</p> |
 
 **Subtypes:** [Roadbed](#subtype-roadbed), [Intersection](#subtype-intersection), [Driveway](#subtype-driveway), and [Shoulder](#subtype-shoulder)
 
@@ -1361,6 +1463,14 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 
 **Geometry Type:** Polygon
 
+|     |     |
+| --- | --- |
+| <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
+| **[Building](#subtype-building)** | <p align="center">2100</p> |
+| **[Garage](#subtype-garage)** | <p align="center">2110</p> |
+| **[Building Under Construction](#subtype-building-uc-building-under-construction)** | <p align="center">5100</p> |
+| **[Sky Bridge](#subtype-skybridge)** | <p align="center">5110</p> |
+
 **Subtypes:** [Row Sidewalk](#subtype-row-sidewalk) and [Interior Sidewalk](#subtype-interior-sidewalk)
 
 <br>
@@ -1430,6 +1540,14 @@ Schools |
 # TRANSPORT STRUCTURE
 
 **Geometry Type:** Polygon
+
+|     |     |
+| --- | --- |
+| <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
+| **[Building](#subtype-building)** | <p align="center">2100</p> |
+| **[Garage](#subtype-garage)** | <p align="center">2110</p> |
+| **[Building Under Construction](#subtype-building-uc-building-under-construction)** | <p align="center">5100</p> |
+| **[Sky Bridge](#subtype-skybridge)** | <p align="center">5110</p> |
 
 **Subtypes:** [Bridge](#subtype-bridge), [Tunnel](#subtype-tunnel), [Rail Bridge](#subtype-rail-bridge), [Pedestrian/Bike Bridge](#subtype-pedestrianbike-bridge), [Railroad Viaduct](#subtype-railroad-viaduct), and [Overpass](#subtype-overpass)
 
