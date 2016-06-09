@@ -1536,9 +1536,9 @@ Schools |
 | **[Bridge](#subtype-bridge)** | <p align="center">2100</p> |
 | **[Tunnel](#subtype-tunnel)** | <p align="center">2110</p> |
 | **[Rail Bridge](#subtype-rail-bridge)** | <p align="center">5100</p> |
-| **Pedestrian/Bike Bridge](#subtype-pedestrianbike-bridge)** | <p align="center">5110</p> |
-| **Railroad Viaduct](#subtype-railroad-viaduct)** | <p align="center">5110</p> |
-| **Overpass](#subtype-overpass)** | <p align="center">5110</p> |
+| **[Pedestrian/Bike Bridge](#subtype-pedestrianbike-bridge)** | <p align="center">5110</p> |
+| **[Railroad Viaduct](#subtype-railroad-viaduct)** | <p align="center">5110</p> |
+| **[Overpass](#subtype-overpass)** | <p align="center">5110</p> |
 
 [**Attributes**](#transport-structure-attributes)<br>
 <br>
