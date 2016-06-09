@@ -1132,15 +1132,13 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 |     |     |
 | --- | --- |
 | <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
-| **[Railroad](#subtype-railroad)** | <p align="center">2100</p> |
-| **[Elevated Railroad](#subtype-elevated-railroad)** | <p align="center">2110</p> |
-| **[Embankment Railroad](#subtype-embankment-railroad)** | <p align="center">5100</p> |
-| **[Viaduct Centerline](#subtype-viaduct-centerline)** | <p align="center">5110</p> |
-| **[Depression Railroad](#subtype-depression-railroad)** | <p align="center">5100</p> |
-| **[Railway Fence](#subtype-railway-fence)** | <p align="center">5110</p> |
-| **[Abandoned Railroad](#subtype-abandoned-railroad)** | <p align="center">5110</p> |
-
-**Subtypes:** [Railroad](#subtype-railroad), [Elevated Railroad](#subtype-elevated-railroad), [Embankment Railroad](#subtype-embankment-railroad), [Viaduct Centerline](#subtype-viaduct-centerline), [Depression Railroad](#subtype-depression-railroad), [Railway Fence](#subtype-railway-fence), and [Abandoned Railroad](#subtype-abandoned-railroad)
+| **[Railroad](#subtype-railroad)** | <p align="center">2400</p> |
+| **[Elevated Railroad](#subtype-elevated-railroad)** | <p align="center">2410</p> |
+| **[Embankment Railroad](#subtype-embankment-railroad)** | <p align="center">2420</p> |
+| **[Viaduct Centerline](#subtype-viaduct-centerline)** | <p align="center">2430</p> |
+| **[Open Cut Depression Railroad](#subtype-open-cut-depression-railroad)** | <p align="center">2440</p> |
+| **[Railway Fence](#subtype-railway-fence)** | <p align="center">2450</p> |
+| **[Abandoned Railroad](#subtype-abandoned-railroad)** | <p align="center">2465</p> |
 
 [**Attributes**](#railroad-attributes)<br>
 <br>
@@ -1196,7 +1194,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 [Back to Table of Contents](#table-of-contents)
 
 <br>
-### Subtype: DEPRESSION RAILROAD
+### Subtype: OPEN CUT DEPRESSION RAILROAD
 
 |     |     |
 | --- | --- |
@@ -1252,11 +1250,11 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 |     |     |
 | --- | --- |
 | <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
-| **[Subway/Train Station](#subtype-subwaytrain-station)** | <p align="center">2100</p> |
-| **[Elevated Subway/Train Station](#subtype-elevated-subwaytrain-station)** | <p align="center">2110</p> |
-| **[Ventilation Grate](#subtype-ventilation-grate)** | <p align="center">5100</p> |
-| **[Emergency Exit](#subtype-emergency-exit)** | <p align="center">5110</p> |
-| **[Transit Entrance](#subtype-transit-entrance)** | <p align="center">5110</p> |
+| **[Subway/Train Station](#subtype-subwaytrain-station)** | <p align="center">2160</p> |
+| **[Elevated Subway/Train Station](#subtype-elevated-subwaytrain-station)** | <p align="center">2140</p> |
+| **[Ventilation Grate](#subtype-ventilation-grate)** | <p align="center">2470</p> |
+| **[Emergency Exit](#subtype-emergency-exit)** | <p align="center">2480</p> |
+| **[Transit Entrance](#subtype-transit-entrance)** | <p align="center">2485</p> |
 
 [**Attributes**](#railroad-structure-attributes)<br>
 <br>
@@ -1342,8 +1340,8 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 |     |     |
 | --- | --- |
 | <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
-| **[Retaining Wall](#subtype-retaining-wall)** | <p align="center">2100</p> |
-| **[Railroad Retaining Wall](#subtype-railroad-retaining-wall)** | <p align="center">2110</p> |
+| **[Retaining Wall](#subtype-retaining-wall)** | <p align="center">4000</p> |
+| **[Railroad Retaining Wall](#subtype-railroad-retaining-wall)** | <p align="center">2460</p> |
 
 <br>
 ### Subtype: RETAINING WALL
@@ -1379,10 +1377,10 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 |     |     |
 | --- | --- |
 | <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
-| **[Roadbed](#subtype-roadbed)** | <p align="center">2100</p> |
-| **[Intersection](#subtype-intersection)** | <p align="center">2110</p> |
-| **[Driveway](#subtype-driveway)** | <p align="center">5100</p> |
-| **[Shoulder](#subtype-shoulder)** | <p align="center">5110</p> |
+| **[Roadbed](#subtype-roadbed)** | <p align="center">350000</p> |
+| **[Intersection](#subtype-intersection)** | <p align="center">350010</p> |
+| **[Driveway](#subtype-driveway)** | <p align="center">350030</p> |
+| **[Shoulder](#subtype-shoulder)** | <p align="center">350020</p> |
 
 <br>
 ### Subtype: ROADBED
@@ -1459,8 +1457,8 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 |     |     |
 | --- | --- |
 | <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
-| **[Row Sidewalk](#subtype-row-sidewalk)** | <p align="center">2100</p> |
-| **[Interior Sidewalk](#subtype-interior-sidewalk)** | <p align="center">2110</p> |
+| **[Row Sidewalk](#subtype-row-sidewalk)** | <p align="center">380000</p> |
+| **[Interior Sidewalk](#subtype-interior-sidewalk)** | <p align="center">380010</p> |
 
 <br>
 ### Subtype: ROW SIDEWALK
@@ -1533,12 +1531,12 @@ Schools |
 |     |     |
 | --- | --- |
 | <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
-| **[Bridge](#subtype-bridge)** | <p align="center">2100</p> |
-| **[Tunnel](#subtype-tunnel)** | <p align="center">2110</p> |
-| **[Rail Bridge](#subtype-rail-bridge)** | <p align="center">5100</p> |
-| **[Pedestrian/Bike Bridge](#subtype-pedestrianbike-bridge)** | <p align="center">5110</p> |
-| **[Railroad Viaduct](#subtype-railroad-viaduct)** | <p align="center">5110</p> |
-| **[Overpass](#subtype-overpass)** | <p align="center">5110</p> |
+| **[Bridge](#subtype-bridge)** | <p align="center">2300</p> |
+| **[Tunnel](#subtype-tunnel)** | <p align="center">2310</p> |
+| **[Rail Bridge](#subtype-rail-bridge)** | <p align="center">2320</p> |
+| **[Pedestrian/Bike Bridge](#subtype-pedestrianbike-bridge)** | <p align="center">2330</p> |
+| **[Railroad Viaduct](#subtype-railroad-viaduct)** | <p align="center">2340</p> |
+| **[Overpass](#subtype-overpass)** | <p align="center">2350</p> |
 
 [**Attributes**](#transport-structure-attributes)<br>
 <br>
