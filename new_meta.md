@@ -243,10 +243,10 @@ The following attribute information applies to all feature classes.  Additional 
 |     |     |
 | --- | --- |
 | <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
-| **[Building](#subtype-building)** | <p align="center">2100</p> |
-| **[Garage](#subtype-garage)** | <p align="center">2110</p> |
-| **[Building Under Construction](#subtype-building-uc-building-under-construction)** | <p align="center">5100</p> |
-| **[Sky Bridge](#subtype-skybridge)** | <p align="center">5110</p> |
+| **[Building Elevation](#subtype-building-elevation)** | <p align="center">2100</p> |
+| **[Water Elevation](#subtype-water-elevation)** | <p align="center">2110</p> |
+| **[Spot Elevation](#subtype-spot-elevation)** | <p align="center">5100</p> |
+| **[Bridge Elevation](#subtype-bridge-elevation)** | <p align="center">5110</p> |
 
 **Subtypes:** [Building Elevation](#subtype-building-elevation), [Water Elevation](#subtype-water-elevation), [Spot Elevation](#subtype-spot-elevation), and [Bridge Elevation](#subtype-bridge-elevation)
 
@@ -330,12 +330,9 @@ The following attribute information applies to all feature classes.  Additional 
 |     |     |
 | --- | --- |
 | <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
-| **[Building](#subtype-building)** | <p align="center">2100</p> |
-| **[Garage](#subtype-garage)** | <p align="center">2110</p> |
-| **[Building Under Construction](#subtype-building-uc-building-under-construction)** | <p align="center">5100</p> |
-| **[Sky Bridge](#subtype-skybridge)** | <p align="center">5110</p> |
-
-**Subtypes:** [Piers](#subtype-piers), [Jetty](#subtype-jetty), and [Seawall](#subtype-seawall)
+| **[Piers](#subtype-piers))** | <p align="center">2100</p> |
+| **[Jetty](#subtype-jetty)** | <p align="center">2110</p> |
+| **[Seawall](#subtype-seawall)** | <p align="center">5100</p> |
 
 [**Attributes**](#hydro-structure-attributes)<br>
 <br>
