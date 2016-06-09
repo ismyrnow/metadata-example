@@ -243,10 +243,10 @@ The following attribute information applies to all feature classes.  Additional 
 |     |     |
 | --- | --- |
 | <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
-| **[Building Elevation](#subtype-building-elevation)** | <p align="center">2100</p> |
-| **[Water Elevation](#subtype-water-elevation)** | <p align="center">2110</p> |
-| **[Spot Elevation](#subtype-spot-elevation)** | <p align="center">5100</p> |
-| **[Bridge Elevation](#subtype-bridge-elevation)** | <p align="center">5110</p> |
+| **[Building Elevation](#subtype-building-elevation)** | <p align="center">3020</p> |
+| **[Water Elevation](#subtype-water-elevation)** | <p align="center">3010</p> |
+| **[Spot Elevation](#subtype-spot-elevation)** | <p align="center">300000</p> |
+| **[Bridge Elevation](#subtype-bridge-elevation)** | <p align="center">300020</p> |
 
 [**Attributes**](#elevation-attributes)<br>
 
@@ -328,9 +328,9 @@ The following attribute information applies to all feature classes.  Additional 
 |     |     |
 | --- | --- |
 | <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
-| **[Piers](#subtype-piers)** | <p align="center">2100</p> |
-| **[Jetty](#subtype-jetty)** | <p align="center">2110</p> |
-| **[Seawall](#subtype-seawall)** | <p align="center">5100</p> |
+| **[Piers](#subtype-piers)** | <p align="center">2800</p> |
+| **[Jetty](#subtype-jetty)** | <p align="center">2810</p> |
+| **[Seawall](#subtype-seawall)** | <p align="center">2820</p> |
 
 [**Attributes**](#hydro-structure-attributes)<br>
 <br>
@@ -389,13 +389,13 @@ The following attribute information applies to all feature classes.  Additional 
 |     |     |
 | --- | --- |
 | <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
-| **[Lake/Reservoir](#subtype-lakereservoir)** | <p align="center">2100</p> |
-| **[Pond](#subtype-pond)** | <p align="center">2110</p> |
-| **[River](#subtype-river)** | <p align="center">5100</p> |
-| **[Stream](#subtype-stream)** | <p align="center">5110</p> |
-| **[Wetland/Marsh](#subtype-wetlandmarsh)** | <p align="center">5110</p> |
-| **[Beach/Shoreline](#subtype-beachshoreline)** | <p align="center">5110</p> |
-| **[Bay/Ocean](#subtype-bayocean)** | <p align="center">5110</p> |
+| **[Lake/Reservoir](#subtype-lakereservoir)** | <p align="center">2600</p> |
+| **[Pond](#subtype-pond)** | <p align="center">2610</p> |
+| **[River](#subtype-river)** | <p align="center">2620</p> |
+| **[Stream](#subtype-stream)** | <p align="center">2630</p> |
+| **[Wetland/Marsh](#subtype-wetlandmarsh)** | <p align="center">2640</p> |
+| **[Beach/Shoreline](#subtype-beachshoreline)** | <p align="center">2650</p> |
+| **[Bay/Ocean](#subtype-bayocean)** | <p align="center">2660</p> |
 
 [**Attributes**](#hydrography-attributes)<br>
 <br>
@@ -507,12 +507,12 @@ The following attribute information applies to all feature classes.  Additional 
 |     |     |
 | --- | --- |
 | <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
-| **[Median_Painted](#subtype-median_painted)** | <p align="center">2100</p> |
-| **[Median_Curb](#subtype-median_curb)** | <p align="center">2110</p> |
-| **[Median_Rail](#subtype-median_rail)** | <p align="center">5100</p> |
-| **[Median_Fence](#subtype-median_fence)** | <p align="center">5110</p> |
-| **[Median_Grass](#subtype-median_grass)** | <p align="center">5110</p> |
-| **[Median_Barrier](#subtype-median_barrier)** | <p align="center">5110</p> |
+| **[Median_Painted](#subtype-median_painted)** | <p align="center">360010</p> |
+| **[Median_Curb](#subtype-median_curb)** | <p align="center">360020</p> |
+| **[Median_Rail](#subtype-median_rail)** | <p align="center">360030</p> |
+| **[Median_Fence](#subtype-median_fence)** | <p align="center">360040</p> |
+| **[Median_Grass](#subtype-median_grass)** | <p align="center">360050</p> |
+| **[Median_Barrier](#subtype-median_barrier)** | <p align="center">360060</p> |
 
 *Rule: Medians were not intersected by <a href="https://data.ny.gov/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b/about">CSCL</a> on the same road except in some rare occasions (e.g. at street intersections with medians). Median type hierarchy is as follows: barrier, rail, fence, curb, grass and painted.*<br>
 <br>
@@ -612,9 +612,9 @@ The following attribute information applies to all feature classes.  Additional 
 |     |     |
 | --- | --- |
 | <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
-| **[Large Billboard and Signs](#subtype-large-billboard-and-signs)** | <p align="center">2100</p> |
-| **[Sign Gantry](#subtype-sign-gantry)** | <p align="center">2110</p> |
-| **[Toll Area](#subtype-toll-area)** | <p align="center">5100</p> |
+| **[Large Billboard and Signs](#subtype-large-billboard-and-signs)** | <p align="center">4100</p> |
+| **[Sign Gantry](#subtype-sign-gantry)** | <p align="center">4110</p> |
+| **[Toll Area](#subtype-toll-area)** | <p align="center">4200</p> |
 
 [**Attributes**](#misc-struct-poly-attributes)<br>
 <br>
@@ -674,9 +674,9 @@ The following attribute information applies to all feature classes.  Additional 
 |     |     |
 | --- | --- |
 | <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
-| **[Cemetery Outline](#subtype-cemetery-outline)** | <p align="center">2100</p> |
-| **[Recreational Area](#subtype-recreational-area)** | <p align="center">2110</p> |
-| **[Vacant Area](#subtype-vacant-area)** | <p align="center">5100</p> |
+| **[Cemetery Outline](#subtype-cemetery-outline)** | <p align="center">2500</p> |
+| **[Recreational Area](#subtype-recreational-area)** | <p align="center">2510</p> |
+| **[Vacant Area](#subtype-vacant-area)** | <p align="center">2520</p> |
 
 [**Attributes**](#open-space-attributes)<br>
 <br>
