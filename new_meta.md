@@ -736,20 +736,20 @@ The following attribute information applies to all feature classes.  Additional 
 |     |     |
 | --- | --- |
 | <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
-| **[Park Boundary](#subtype-park-boundary)** | <p align="center">2100</p> |
-| **[Baseball/Softball Field](#subtype-baseballsoftball-field)** | <p align="center">2110</p> |
-| **[Basketball Court](#subtype-basketball-court)** | <p align="center">5100</p> |
-| **[Handball](#subtype-handball)** | <p align="center">5110</p> |
-| **[Multipurpose Court](#subtype-multipurpose-court)** | <p align="center">5110</p> |
-| **[Tennis Court](#subtype-tennis-court)** | <p align="center">5110</p> |
-| **[Volleyball](#subtype-volleyball)** | <p align="center">5110</p> |
-| **[Football Field](#subtype-football-field)** | <p align="center">5110</p> |
-| **[Soccer Field](#subtype-soccer-field)** | <p align="center">5110</p> |
-| **[Golf Course](#subtype-golf-course)** | <p align="center">5110</p> |
-| **[Pools](#subtype-pools)** | <p align="center">5110</p> |
-| **[Track](#subtype-track)** | <p align="center">5110</p> |
-| **[Skating Rink](#subtype-skating-rink)** | <p align="center">5110</p> |
-| **[Greenstreets](#subtype-greenstreets)** | <p align="center">5110</p> |
+| **[Park Boundary](#subtype-park-boundary)** | <p align="center">4980</p> |
+| **[Baseball/Softball Field](#subtype-baseballsoftball-field)** | <p align="center">4900</p> |
+| **[Basketball Court](#subtype-basketball-court)** | <p align="center">491010</p> |
+| **[Handball](#subtype-handball)** | <p align="center">491030</p> |
+| **[Multipurpose Court](#subtype-multipurpose-court)** | <p align="center">491050</p> |
+| **[Tennis Court](#subtype-tennis-court)** | <p align="center">491060</p> |
+| **[Volleyball](#subtype-volleyball)** | <p align="center">491070</p> |
+| **[Football Field](#subtype-football-field)** | <p align="center">4920</p> |
+| **[Soccer Field](#subtype-soccer-field)** | <p align="center">4930</p> |
+| **[Golf Course](#subtype-golf-course)** | <p align="center">4940</p> |
+| **[Pools](#subtype-pools)** | <p align="center">4950</p> |
+| **[Track](#subtype-track)** | <p align="center">4960</p> |
+| **[Skating Rink](#subtype-skating-rink)** | <p align="center">4970</p> |
+| **[Greenstreets](#subtype-greenstreets)** | <p align="center">4985</p> |
 
 [**Attributes**](#park-attributes)<br>
 <br>
@@ -971,9 +971,9 @@ The following attribute information applies to all feature classes.  Additional 
 |     |     |
 | --- | --- |
 | <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
-| **[Edge Of Pavement](#subtype-edge-of-pavement)** | <p align="center">2100</p> |
-| **[Airport Runway](#subtype-airport-runway)** | <p align="center">2110</p> |
-| **[Alley](#subtype-alley)** | <p align="center">5100</p> |
+| **[Edge Of Pavement](#subtype-edge-of-pavement)** | <p align="center">2260</p> |
+| **[Airport Runway](#subtype-airport-runway)** | <p align="center">2465</p> |
+| **[Alley](#subtype-alley)** | <p align="center">2270</p> |
 
 [**Attributes**](#pavement-edge-attributes)<br>
 
