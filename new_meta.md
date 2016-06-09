@@ -396,7 +396,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **[River](#subtype-river)** | <p align="center">5100</p> |
 | **[Stream](#subtype-stream)** | <p align="center">5110</p> |
 | **[Wetland/Marsh](#subtype-wetlandmarsh)** | <p align="center">5110</p> |
-| **[Beach/Shoreline](#subtype-beachshoreline** | <p align="center">5110</p> |
+| **[Beach/Shoreline](#subtype-beachshoreline)** | <p align="center">5110</p> |
 | **[Bay/Ocean](#subtype-bayocean)** | <p align="center">5110</p> |
 
 [**Attributes**](#hydrography-attributes)<br>
